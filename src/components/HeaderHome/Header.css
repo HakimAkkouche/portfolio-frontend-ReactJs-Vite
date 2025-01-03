@@ -1,0 +1,63 @@
+div.header-image {
+    width: 160px;
+}
+div.App div.cover h4 {
+    color: lightgray;
+    font-size: 1.75rem;
+    margin-top: 5px;
+    text-align: center;
+}
+div.App div.cover h6 {
+    color: lightgray;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    text-align: center;
+}
+div.cover
+{
+    background: url(../../assets/images/cover_overlay.png) no-repeat center/100% 100%,url(../../assets/images/cover.png) no-repeat center/cover;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+img.cover-profile
+{
+    height: 160px;
+    margin-top: 50px;
+}
+div.cover p
+{
+    color: lightgray;
+    margin-top: 5px;
+    text-align: center;
+}
+div.cover a {
+    margin: 16px;
+}
+div.cover-contact
+{
+    border-left: 4px solid var(--color1);
+    left: 10px;
+    padding-left: 8px   ;
+    top: 10px;
+}
+div.cover-contact p
+{
+    margin: 0 0;
+    text-align: left;
+}
+
+div.cover-contact p:first-child
+{
+    margin: 0 0 15px 0;
+}
+
+div.cover-contact *
+{
+    color: white;
+    font-size: 14px;
+}
+img.icon-social-network  {
+    height: 36px;
+}

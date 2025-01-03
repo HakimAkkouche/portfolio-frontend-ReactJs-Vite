@@ -1,0 +1,47 @@
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .project-table th, .project-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .project-table th {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .project-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .edit-button, .delete-button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-button:hover {
+    background-color: #da190b;
+  }
+  

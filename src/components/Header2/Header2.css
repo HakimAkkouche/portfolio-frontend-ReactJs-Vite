@@ -1,0 +1,16 @@
+.header-title a.header-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-title a.header-link:visited {
+    color: #fff; /* Reste en blanc même après visite */
+}
+
+.header-title a.header-link:hover {
+    text-decoration: underline; /* Ajoute une décoration au survol */
+}
+
+.header-title a.header-link:active {
+    color: #fff; /* Reste blanc même lors du clic */
+}

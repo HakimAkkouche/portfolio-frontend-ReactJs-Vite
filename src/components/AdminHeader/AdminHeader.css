@@ -1,0 +1,44 @@
+
+.admin-header .center-container{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement */
+    justify-content: space-between;
+}
+.title-container {
+    flex: 1; /* Prend l'espace disponible pour centrer le titre */
+    text-align: center; /* Centre le titre horizontalement */
+}
+.logout-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Aligne l'icône verticalement */
+}
+.admin-header .header-title {
+    margin-top: 30px;
+}
+
+.logout-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    border: 1px solid #007bff;
+    display: flex;
+    align-items: center;
+}
+
+.logout-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.logout-link img {
+    width: 20px; /* Ajustez la taille de l'image */
+    height: 20px;
+    margin-left: 8px;
+}
+  

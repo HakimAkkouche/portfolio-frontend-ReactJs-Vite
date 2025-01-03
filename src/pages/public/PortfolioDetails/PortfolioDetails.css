@@ -1,0 +1,85 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+  
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+  
+.modal {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.modal-image {
+    width: 100%;
+    height: auto;
+}
+
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.modal-nav.prev {
+    left: 10px;
+}
+
+.modal-nav.next {
+    right: 10px;
+}
+div.slick-dots ul li {
+    display: contents;
+}
+  
+.center-div .slick-next, .center-div .slick-prev {
+    border-radius: 50%;
+    background-color: blue;
+    height: 25px;
+    width: 25px;
+}
+.thumbnail-container {
+    height: 140px;
+}

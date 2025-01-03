@@ -1,0 +1,54 @@
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 20px); /* Deux colonnes */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row; /* Aligner l'image et le texte en ligne */
+    gap: 20px; /* Espacement entre l'image et le texte */
+    align-items: flex-start; /* Alignement en haut */
+}
+
+.portfolio-item img {
+    flex: 1; /* L'image prend 40% */
+    max-width: 40%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.portfolio-item .text-content {
+    flex: 2; /* Le texte prend 60% */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.portfolio-item h2 {
+    margin: 0 0 10px; /* Espacement sous le titre */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.portfolio-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .portfolio-item {
+        flex-direction: column; /* Passe en mode colonne sur les petits écrans */
+        width: 100%; /* Une seule colonne */
+    }
+
+    .portfolio-item img {
+        max-width: 100%; /* L'image prend toute la largeur */
+    }
+
+    .portfolio-item .text-content {
+        width: 100%; /* Le texte prend toute la largeur */
+    }
+}
