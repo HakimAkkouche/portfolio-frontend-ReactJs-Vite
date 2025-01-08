@@ -29,3 +29,65 @@ Ce projet est le frontend de mon portfolio personnel, construit avec **React.js*
    ```bash
    git clone https://github.com/ton-compte/portfolio-frontend.git
    cd portfolio-frontend
+
+2. Installez les dépendances :
+
+    Avec npm :
+        npm install
+
+    Ou avec yarn :
+        yarn install
+
+3. Lancez le serveur de développement :
+
+    Avec npm :
+        npm run dev
+
+    Ou avec yarn :
+        yarn dev
+
+    Une fois l'application lancée, ouvrez votre navigateur à l'adresse http://localhost:3000.
+
+## Structure du projet
+
+Voici l'arborescence des fichiers principaux du projet :
+
+/src
+  /assets      # Contient les images et autres ressources statiques.
+  /components  # Composants React réutilisables.
+  /pages       # Pages principales du portfolio (Accueil, Projets, Contact, etc.).
+  /styles      # Fichiers CSS.
+  /services    # Fonctions utilitaires (API, helpers, etc.).
+/public         # Fichiers statiques accessibles publiquement (index.html, etc.).
+vite.config.js   # Configuration de Vite.
+package.json     # Fichier de gestion des dépendances et des scripts.
+
+## Déploiement
+
+1. Pour construire le projet en production :
+
+    Avec npm :
+        npm run build
+
+    Ou avec yarn :
+        yarn build
+
+2. Le dossier dist/ contiendra les fichiers optimisés pour la production. Vous pouvez maintenant déployer votre application sur votre serveur ou service de votre choix (par exemple, Netlify, Vercel, ou un serveur traditionnel avec Nginx).
+
+## Contribution
+
+Si vous souhaitez contribuer à ce projet, vous pouvez :
+
+    1. Forker ce projet.
+    2. Créer une branche (git checkout -b feature/nom-de-la-feature).
+    3. Effectuer vos modifications.
+    4. Soumettre une pull request.
+
+## License
+
+    Ce projet est sous la licence MIT. Consultez le fichier LICENSE pour plus de détails.
+
+## Auteur
+
+    Nom de l'auteur : Hakim AKKOUCHE.
+    Contact : [Linkedin](https://www.linkedin.com/in/hakim-akkouche/)
