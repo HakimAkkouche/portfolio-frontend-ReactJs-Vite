@@ -90,4 +90,4 @@ Si vous souhaitez contribuer à ce projet, vous pouvez :
 ## Auteur
 
     Nom de l'auteur : Hakim AKKOUCHE.
-    Contact : [Linkedin](https://www.linkedin.com/in/hakim-akkouche/)
+    Contact : [Linkedin](#https://www.linkedin.com/in/hakim-akkouche/)
